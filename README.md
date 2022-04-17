@@ -1,4 +1,5 @@
 # ARpentHouse500
+# *The code is in the master branch :)
 # Member Information
 Last Name | First Name | CSU email address
 -----------|------------|-----------
