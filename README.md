@@ -17,3 +17,7 @@ We plan to perform a complete scan and build a map of the LSC for the next phase
 
 # Related Experiment
 We will design an experiment to test the practicality of our AR indoor navigation application. The experimenters will be divided into two parts. In the case of ensuring that they are not familiar with our preset maps, part of the experimenters can only reach the designated place through the signs in the building, and the other part can use AR indoor navigation to find a destination. We will compare the time taken by the two groups to reach the destination to analyze whether AR indoor navigation is practical, in other words, whether the user can get to the goal faster.
+
+# Development environment and tool
+Unity 
+Meshroom
