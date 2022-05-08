@@ -1,54 +1,25 @@
-Google ARCore SDK for Unity
-===========================
-Copyright 2017 Google LLC
+# ARpentHouse500
+# Member Information
+Last Name | First Name | CSU email address
+-----------|------------|-----------
+Zhongze     |Zhang     |zhongze@colostate.edu
+Guirong     | Liang    |lgr9611@colostate.edu
 
-This SDK provides native APIs for all of the essential AR features like motion
-tracking, environmental understanding, and light estimation. With these
-capabilities you can build entirely new AR experiences or enhance existing apps
-with AR features.
+# Youtube video
 
-<b>Caution</b>: The <i>ARCore SDK for Unity</i> is <b>deprecated</b>, and no longer
-supported in the 2020 and later versions of Unity. This SDK should only be
-used by developers working on existing projects which are unable to migrate
-to Unity's AR Foundation. Developers starting new projects should instead use
-the [ARCore Extensions for AR Foundation](//github.com/google-ar/arcore-unity-extensions).
+https://youtu.be/83fervPkDB8
 
-## Quick Start
+# Introduction
+Our AR indoor navigation project was developed based on Unity to instruct users on how to travel within the environment of a given building. We started with a simple scene modeling in this checkpoint instead of an entire building interior environment to test if the base code works properly. Once the modeling was complete, we added the target object (i.e., destination) to the environment. We then added a short script to unity, which was to set the navigation target and add two references to it, one for the top-down camera and the other for the navigation target object. Unfortunately, we had problems running the source code, and the two references did not show up even after debugging. We will continue to try to solve this problem by other methods.
 
-See the [Getting Started with Unity](//developers.google.com/ar/develop/unity/getting-started) developer guide.
+# Methodology
+To complete our AR indoor navigation project, three modules must be considered: mapping, positioning and rendering. Users can use their mobile devices to find and navigate on pre-recorded maps. The program will use scene understanding algorithms and 3D visual positioning algorithms to calculate the user's exact location in real-time. AR indoor navigation allows users to see digital attributes of physical spaces, such as virtual store signage, promotions, and other real-time information. The navigation route will appear interactively on the pre-recorded map of the mobile device to achieve virtual and real synchronization.
 
+# Results
+From the data collected, most participants needed around 20 seconds to reach their destination, and this time was highly correlated with the relocation time. It shows that the defect of the software is very obvious, and the defect directly affects the user's experience. We noticed that when the route deviates, the user needs to stand still to allow the AR navigation to relocate, and the longer the relocation time, the longer the user spends in total. Users who were disappointed with the use of this AR navigation and gave negative ratings in the questionnaire experienced prolonged relocations or route deviations during their use.
+        
+# Related Experiment
+We will design an experiment to test the practicality of our AR indoor navigation application. The experimenters will be divided into two parts. In the case of ensuring that they are not familiar with our preset maps, part of the experimenters can only reach the designated place through the signs in the building, and the other part can use AR indoor navigation to find a destination. We will compare the time taken by the two groups to reach the destination to analyze whether AR indoor navigation is practical, in other words, whether the user can get to the goal faster.
 
-## API Reference
-
-See the [ARCore SDK for Unity API Reference](//developers.google.com/ar/reference/unity).
-
-
-## Release Notes
-
-The SDK release notes are available on the
-[releases](//github.com/google-ar/arcore-unity-sdk/releases) page.
-
-
-## Terms & Conditions
-
-By downloading the ARCore SDK for Unity, you agree that the
-[Google APIs Terms of Service](//developers.google.com/terms/) governs your use
-thereof.
-
-
-## User privacy requirements
-
-You must disclose the use of Google Play Services for AR (ARCore) and how it
-collects and processes data, prominently in your application, easily accessible
-to users. You can do this by adding the following text on your main menu or
-notice screen: "This application runs on [Google Play Services for AR](//play.google.com/store/apps/details?id=com.google.ar.core) (ARCore),
-which is provided by Google LLC and governed by the [Google Privacy Policy](//policies.google.com/privacy)".
-
-## Deprecation policy
-
-Apps built with **ARCore SDK 1.12.0 or higher** are covered by the
-[Cloud Anchor API deprecation policy](//developers.google.com/ar/distribute/deprecation-policy).
-
-Apps built with **ARCore SDK 1.11.0 or lower** will be unable to host or resolve
-Cloud Anchors beginning December 2020 due to the SDK's use of an older,
-deprecated ARCore Cloud Anchor service.
+# Development environment and tool
+## Unity / Meshroom
