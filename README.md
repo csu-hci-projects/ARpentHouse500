@@ -27,10 +27,11 @@ Although we encountered some difficulties along the way, we still completed the 
 Unity, Meshroom, Google form
 
 # Youtube Videos
-1 https://youtube.com/shorts/2J18BpeSVfM?feature=share 
+1 https://youtu.be/3-Akl3hluW8
 
+2 https://youtube.com/shorts/2J18BpeSVfM?feature=share 
 
-2 https://youtube.com/shorts/7_Vu3O9Z414?feature=share
+3 https://youtube.com/shorts/7_Vu3O9Z414?feature=share
 
 # Github
 https://github.com/csu-hci-projects/ARpentHouse500.git
