@@ -16,6 +16,8 @@ Our AR indoor navigation project was developed based on Unity to instruct users 
 To complete our AR indoor navigation project, three modules must be considered: mapping, positioning and rendering. Users can use their mobile devices to find and navigate on pre-recorded maps. The program will use scene understanding algorithms and 3D visual positioning algorithms to calculate the user's exact location in real-time. AR indoor navigation allows users to see digital attributes of physical spaces, such as virtual store signage, promotions, and other real-time information. The navigation route will appear interactively on the pre-recorded map of the mobile device to achieve virtual and real synchronization.
 
 # Results
+| ![TeamImages](TeamImages/WechatIMG10640.png)   |
+| ![TeamImages](TeamImages/WechatIMG10642.png)   |
 From the data collected, most participants needed around 20 seconds to reach their destination, and this time was highly correlated with the relocation time. It shows that the defect of the software is very obvious, and the defect directly affects the user's experience. We noticed that when the route deviates, the user needs to stand still to allow the AR navigation to relocate, and the longer the relocation time, the longer the user spends in total. Users who were disappointed with the use of this AR navigation and gave negative ratings in the questionnaire experienced prolonged relocations or route deviations during their use.
         
 # Related Experiment
